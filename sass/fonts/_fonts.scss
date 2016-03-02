@@ -1,0 +1,72 @@
+/* Open Sans */
+@import "../webfonts/fonts.css";
+$OpenSans: 'Open Sans', sans-serif;
+
+/* Nexa */
+@font-face {
+  font-family: 'Nexa';
+  src: url('../webfonts/277C36_D_0.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/277C36_D_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../webfonts/277C36_D_0.woff') format('woff'), /* Modern Browsers */
+  url('../webfonts/277C36_D_0.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_D_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+$Nexa: 'Nexa', sans-serif;
+
+@font-face {
+  font-family: 'Nexa-Bold';
+  src: url('../webfonts/277C36_2_0.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/277C36_2_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../webfonts/277C36_2_0.woff') format('woff'), /* Modern Browsers */
+  url('../webfonts/277C36_2_0.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_6_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Nexa-Light-Italic';
+  src: url('../webfonts/277C36_6_0.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/277C36_6_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../webfonts/277C36_6_0.woff') format('woff'), /* Modern Browsers */
+  url('../webfonts/277C36_6_0.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_6_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Nexa-Regular-Italic';
+  src: url('../webfonts/277C36_7_0.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/277C36_7_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../webfonts/277C36_7_0.woff') format('woff'), /* Modern Browsers */
+  url('../webfonts/277C36_7_0.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_7_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Nexa-Light';
+  src: url('../webfonts/277C36_8_0.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/277C36_8_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../webfonts/277C36_8_0.woff') format('woff'), /* Modern Browsers */
+  url('../webfonts/277C36_8_0.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_8_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Nexa-Book';
+  src: url('../webfonts/277C36_4_0.eot'); /* IE9 Compat Modes */
+  src: url('../webfonts/277C36_4_0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../webfonts/277C36_4_0.woff') format('woff'), /* Modern Browsers */
+  url('../webfonts/277C36_4_0.ttf')  format('truetype') /* Safari, Android, iOS */
+  /*url('../webfonts/277C36_8_0.svg#svgFontName') format('svg');  Legacy iOS */
+}
+/* </Dynamic Fonts> */
+
+/* RatioModern */
+@font-face {
+  font-family: 'RatioModern';
+  src: url('../webfonts/RatioModern-Italic-webfont.eot');
+  src: url('../webfonts/RatioModern-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../webfonts/RatioModern-Italic-webfont.woff') format('woff'),
+  url('../webfonts/RatioModern-Italic-webfont.ttf')  format('truetype')
+}
+
+$RatioModern: 'RatioModern', sans-serif;

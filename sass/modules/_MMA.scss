@@ -1,0 +1,46 @@
+.MMA{
+  box-sizing: border-box;
+  border: 1px solid $lightGrayBG;
+  height: 500px;
+  background-image: url("../images/microphone.jpg");
+  padding: 0 200px;
+  color: white;
+  position: relative;
+  .MMAbox{
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid $orange;
+    height: 497px;
+    width: 600px;
+    background-color: $orange;
+    h3{
+      text-align: left;
+      color: white;
+      margin: 30px 0;
+    }
+    p{
+      margin: 25px 0;
+      line-height: 25px;
+      font-size: 17px;
+    }
+    button{
+      position: absolute;
+      bottom: 30px;
+      margin: 10px 0;
+      background-color: transparent;
+      box-sizing: border-box;
+      color: white;
+      border: solid 1px white;
+      width: 225px;
+      height: 50px;
+      font-size: 20px;
+      border-radius: 10px;
+      line-height: 50px;
+      text-align: center;
+    }
+    button:hover{
+      background-color: white;
+      color: $orange;
+    }
+  }
+}

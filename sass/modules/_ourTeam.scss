@@ -1,0 +1,52 @@
+.ourTeam {
+  .sliderTeam {
+
+    text-align: center;
+
+    .slick-prev:before, .slick-next:before{
+      color: darkGray;
+    }
+
+    /*.teamSlides{
+      vertical-align: middle;
+      display: inline-block;
+      line-height: 120px;
+      height: 120px;
+      margin: 0 auto;
+    }
+    .teamSlides>div{
+      overflow: hidden;
+      height: 85px;
+      display: inline-block;
+    }
+    .teamSlides>div.activeSlide{
+      height: 120px;
+      width: 120px;
+    }
+    .leftArrowTeam,.rightArrowTeam{
+      display: inline-block;
+      width: 40px;
+      height: 120px;
+      line-height: 120px;
+    }*/
+  }
+}
+
+.teamSlides {
+
+}
+
+.teamSlides__item {
+  text-align: center;
+
+  &.slick-slide  img {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &.slick-active {
+
+  }
+}
+
+.slick-list { padding: 0!important; }

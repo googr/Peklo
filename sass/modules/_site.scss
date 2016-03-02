@@ -1,0 +1,25 @@
+.site {
+  width: 1900px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h3{
+  margin: 24px 0;
+  color: $orange;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+}
+h5{
+  font-weight: 600;
+  color: $darkGray;
+  margin: 20px 0;
+  font-size: 24px;
+}
+.clear{
+  clear: both;
+}

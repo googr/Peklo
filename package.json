@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "evgeny",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.2.3",
+    "browser-sync": ">=2.7.12",
+    "gulp": ">=3.9.0",
+    "gulp-postcss": "^6.0.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": ">=1.5.2",
+    "gulp.spritesmith": "^4.1.0"
+  }
+}

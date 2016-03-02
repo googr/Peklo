@@ -1,0 +1,19 @@
+.weCool{
+  box-sizing: border-box ;
+  border: solid 1px $lightGrayBG;
+  background-color: $lightGrayBG;
+  min-height: 350px;
+  padding: 0 200px;
+  .boxInfo{
+    color: #333333;
+    display: inline-block;
+    margin: 10px;
+    width: 700px;
+  }
+  p{
+    color: $lightGrayP;
+    font-family: Sans-Serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,75 @@
+.portfolio{
+  height: 700px;
+  text-align: center;
+  color: $lightGrayP;
+}
+.itemBox,.slides, .leftArrow {
+  display: inline-block;
+  float: left;
+}
+.rightArrow {
+  float: right;
+}
+.slides{
+  box-sizing: border-box;
+  text-align: justify;
+  width: 1660px;
+  margin: 0;
+  padding: 0;
+}
+.leftArrow,.rightArrow{
+  position: relative;
+  width: 120px;
+  height: 600px;
+  line-height: 600px;
+}
+.leftArrow:hover,.rightArrow:hover{
+  cursor: pointer;
+  background-color: $lightGrayBG;
+}
+.itemBox{
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  width: 395px;
+  margin: 10px;
+  border: solid 1px $lightGrayP;
+  height: 570px;
+}
+.slderBox{
+  box-sizing: border-box;
+  width:100% ;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  line-height: 600px;
+}
+.discription{
+  position: absolute;
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+  background-color: #ffffff;
+  bottom: 0;
+  h6{
+    color: $lightGrayP;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  p {
+    color: $lightGrayP;
+    font-family: Sans-Serif, serif;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  i{
+    position: absolute;
+    right: 20px;
+    top: 50%
+  }
+}
+.discription:hover{
+  cursor: pointer;
+  background-color: $lightGrayBG;
+}

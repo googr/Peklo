@@ -1,52 +1,60 @@
 .ourTeam {
   .sliderTeam {
-
     text-align: center;
-
-    .slick-prev:before, .slick-next:before{
-      color: darkGray;
-    }
-
-    /*.teamSlides{
-      vertical-align: middle;
-      display: inline-block;
-      line-height: 120px;
-      height: 120px;
-      margin: 0 auto;
-    }
-    .teamSlides>div{
-      overflow: hidden;
-      height: 85px;
-      display: inline-block;
-    }
-    .teamSlides>div.activeSlide{
-      height: 120px;
-      width: 120px;
-    }
-    .leftArrowTeam,.rightArrowTeam{
-      display: inline-block;
-      width: 40px;
-      height: 120px;
-      line-height: 120px;
-    }*/
   }
+  button.team {
+    margin: 10px 0;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: solid 1px $lightGrayP;
+    width: 225px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+.slick-list { padding: 50px 0!important; }
+.slick-prev, .slick-next{
+  height: 150px !important;
+}
+.slick-prev:before, .slick-next:before{
+  font: normal normal normal 50px/1 FontAwesome !important;
+  color: #030303 !important;
+}
+.slick-prev:before{
+  content: "\f104" !important;
+}
+.slick-next:before{
+  content: "\f105"!important;
 }
 
 .teamSlides {
-
+  margin: 0 auto !important;
+  max-width: 1000px;
 }
 
 .teamSlides__item {
   text-align: center;
+
+  img {
+    width: 84px;
+    height: 84px;
+    transition: all 0.2s ease;
+    transform: scale(1);
+  }
 
   &.slick-slide  img {
     display: inline-block;
     vertical-align: top;
   }
 
-  &.slick-active {
-
+  &.slick-current {
+    img {
+      transform: scale(1.5);
+    }
   }
-}
 
-.slick-list { padding: 0!important; }
+  .slick-slider {  margin-bottom: 0!important;  }
+}

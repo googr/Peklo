@@ -2,8 +2,8 @@
   box-sizing: border-box ;
   border: solid 1px $lightGrayBG;
   background-color: $lightGrayBG;
-  height: 350px;
-  padding: 0 200px;
+  min-height: 350px;
+
   .boxToStore{
     position: relative;
     display: inline-block;
@@ -25,16 +25,8 @@
   .marginLeft{
     margin-left: 150px;
   }
-  p{
-    margin: 20px 0;
-    color: $lightGrayP;
-    font-family: Sans-Serif;
-    font-size: 17px;
-    line-height: 20px;
-  }
+
    button{
-    position: absolute;
-    bottom: 20px;
     margin: 10px 0;
     background-color: transparent;
     box-sizing: border-box;

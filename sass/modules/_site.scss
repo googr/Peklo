@@ -1,11 +1,49 @@
+.hide{
+  display: none;
+}
 .site {
-  width: 1900px;
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 50px;
+}
+.box__title{
+  margin: 24px 0;
+  color: $orange;
+  font-size: 38px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.box__container {
+  @include clearfix;
+}
+
+.box50 {
+  vertical-align: top;
+  position: relative;
+  float: left;
+  width: 48%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
 }
 a{
   text-decoration: none;
   color: inherit;
+}
+a:hover{
+  color:deepskyblue;
+}
+p{
+  margin: 20px 0;
+  color: $lightGrayP;
+  font-family: Sans-Serif;
+  font-size: 17px;
+  line-height: 20px;
 }
 h3{
   margin: 24px 0;
@@ -22,4 +60,30 @@ h5{
 }
 .clear{
   clear: both;
+}
+h2{
+  margin: 24px;
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+button{
+  padding-left: 10px ;
+  padding-right: 10px ;
+  margin: 10px 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: solid 1px $lightGrayP;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  line-height: 50px;
+  text-align: center;
+}
+button:hover{
+  background-color: $orange;
+  border: solid 1px white;
+  color: orange;
 }

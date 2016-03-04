@@ -1,29 +1,24 @@
 .portfolio{
-  height: 700px;
+  min-height: 450px;
   text-align: center;
   color: $lightGrayP;
-}
-.itemBox,.slides, .leftArrow {
-  display: inline-block;
-  float: left;
-}
-.rightArrow {
-  float: right;
+  .slick-list { padding: 0 0!important; }
 }
 .slides{
   box-sizing: border-box;
+  margin: 0 auto!important;
   text-align: justify;
-  width: 1660px;
-  margin: 0;
+  width: 90%;
   padding: 0;
+  .slick-prev:before, .slick-next:before{
+    font: normal normal normal 80px/1 FontAwesome !important;
+  }
+  &.slick-slider{
+    margin-top: -50px;
+  }
 }
-.leftArrow,.rightArrow{
-  position: relative;
-  width: 120px;
-  height: 600px;
-  line-height: 600px;
-}
-.leftArrow:hover,.rightArrow:hover{
+
+.slick-prev:hover, .slick-next:hover{
   cursor: pointer;
   background-color: $lightGrayBG;
 }
@@ -31,19 +26,15 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  width: 395px;
-  margin: 10px;
+  width: 24%;
+  margin: 0.5%;
   border: solid 1px $lightGrayP;
   height: 570px;
+  img{
+    width: 100%;
+  }
 }
-.slderBox{
-  box-sizing: border-box;
-  width:100% ;
-  overflow: hidden;
-  position: relative;
-  height: 600px;
-  line-height: 600px;
-}
+
 .discription{
   position: absolute;
   padding: 5px;

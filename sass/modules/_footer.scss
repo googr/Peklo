@@ -1,0 +1,34 @@
+footer{
+  min-height: 300px;
+  background-color: #293139;
+  color: $lightGrayP;
+
+  h5{
+    color: white;
+  }
+  li{
+    margin: 20px 0;
+  }
+
+}
+
+.footerContacts{
+  float: left;
+  width: 600px;
+  nav div{
+    float: left;
+    margin-right: 70px;
+  }
+}
+.fromBlog{
+  width: 445px;
+  float: right;
+}
+
+.copyright{
+  margin: 0;
+  color: $lightGrayP;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #222a32;
+}

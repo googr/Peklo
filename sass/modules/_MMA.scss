@@ -1,9 +1,10 @@
 .MMA{
+  max-width: 1900px;
+  margin: 0;
   box-sizing: border-box;
   border: 1px solid $lightGrayBG;
   height: 500px;
   background-image: url("../images/microphone.jpg");
-  padding: 0 200px;
   color: white;
   position: relative;
   .MMAbox{
